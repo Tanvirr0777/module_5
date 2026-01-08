@@ -113,7 +113,7 @@ ul li a{
     font-weight: bold;
 }
 
-#btn-bn .btn #cv{
+#btn-bn .btn #cv , .btn #rs{
     padding: 19px 17px 18px 51px ;
 }
 
@@ -127,7 +127,7 @@ ul li a{
     vertical-align: middle;
 }
 
-#about{
+#about,#skill{
     padding-top: 130px;
     width: 1600px;
 }
@@ -145,14 +145,14 @@ ul li a{
     padding: 131px 157px;
 }
 
-#section-heading h3{
+.section-heading h3{
        font-size: 35px;
        font-weight: bold;
        margin-bottom: 30px;
        counter-reset: #181818;
 }
 
-#section-heading p{
+.section-heading p{
     font-size: 18px;
     line-height: 30px;
     color: #757575;
@@ -172,3 +172,176 @@ ul li a{
 .infor-card h4{
     font-size: 20px;
 }
+
+#skill .skill-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0px auto;
+    text-align: center;
+    background-color: FFFFFF;
+}
+
+.skill-container .section-heading p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    max-width: 827px;
+    margin: 0 auto 50px auto;
+}
+
+.skill-card img{
+    max-width: 44px;
+    max-height: 44px;
+    margin: 30px 193px 30px 30px;
+}
+
+.skill-set{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill-set .skill-card{
+    max-width: 267px;
+    max-height: 377px;
+    box-shadow: 0px 4px 10px 0px  #00000040;
+}
+
+.skill-set .skill-card h4{
+    font-size: 20px;
+    color: #181818;
+    font-weight: bold;
+    text-align: left;
+    margin: 0px 63px 20px 30px;
+}
+
+.skill-set .skill-card p{
+
+    font-size: 16px;
+    color: #757575;
+    margin: 0 33px 30px 33px;
+    text-align: left;
+    line-height: 28px;
+}
+
+#resume .resume-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-top: 130px;
+}
+
+.resume-container .section-heading h3{
+       font-size: 35px;
+       font-weight: bold;
+       margin-bottom: 130px;
+       counter-reset: #181818;
+       text-align: center;
+}
+
+.resume-info{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 20px;
+}
+
+.education h3,.experience h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.education h4 ,.experience h4{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #474747;
+    
+}
+
+.education h5 ,.experience h5{
+    font-size: 20px;
+    font-weight: 600px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.education p ,.experience p{
+    font-size: 17px;
+    color: #757575;
+    line-height: 28px;
+    margin-bottom:30px ;
+    max-width: 511px;
+}
+hr{
+     width: 558px;
+     color: #D9D9D9;
+     margin-bottom: 30px;
+}
+
+div #db{
+   text-align: center;
+}
+
+footer{
+    margin-top: 113px;
+    background-color: #FFF8F3;
+    padding: 130px 0px;
+}
+
+.footer-container{
+   width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 117px;
+}
+
+.footer-container .soicial{
+   
+    max-width: 562px;
+   
+}
+
+.footer-container h2{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.footer-container .soicial p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+   margin-bottom: 30px;
+}
+
+.footer-container .soicial .icons {
+   margin-right: 24px;
+}
+
+.footer-container .form{
+    border: 1px solid black;
+}
+
+
+
+ .forma input[type="text"],[type="email"]{
+    width: 461px;
+    margin-bottom: 24px;
+    padding: 18px 31px;
+    border: none;
+    border-radius: 5%;
+    color: #757575;
+}
+
+.footer-container form textarea{
+     width: 461px;
+    margin-bottom: 24px;
+    padding: 18px 31px;
+    border: none;
+    border-radius: 5%;
+    color: #757575;
+}
+
